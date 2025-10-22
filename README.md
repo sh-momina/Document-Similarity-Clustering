@@ -1,24 +1,26 @@
 # 🧩 Document Similarity Clustering
 
-This project clusters and analyzes assignment documents (Word or PDF) based on their content similarity.  
-It uses NLP and clustering techniques to detect which assignments are likely similar in writing, structure, or topic.
+A Streamlit app that clusters assignment documents (`.docx`) using both **TF-IDF** and **OpenAI embeddings** via **LangChain**.  
+It helps detect similar or duplicate assignments by comparing semantic and keyword-level similarities.
 
 ---
 
 ## 🚀 Features
-- 🗂️ Upload `.docx` assignment files  
-- 🤖 Automatically extract and process document text  
-- 📊 Generate clusters of similar assignments  
-- 🌐 Interactive Streamlit interface for visualization  
-- 📝 View each cluster’s documents and similarity strength  
+- 📤 Upload multiple `.docx` or `.pdf` files  
+- 🧠 Dual analysis using **TF-IDF** and **OpenAI embeddings**  
+- 🔍 Clusters similar assignments based on content meaning  
+- 💬 Displays similarity scores, strengths, and recommendations  
+- 🌐 Simple **Streamlit UI** for interactive results  
 
 ---
 
 ## 🧠 Tech Stack
 - **Python**
 - **Streamlit**
-- **scikit-learn**
-- **NLP / TF-IDF Vectorization**
+- **LangChain**
+- **OpenAI Embeddings**
+- **TF-IDF (scikit-learn)**
+- **Unstructured** (for text extraction)
 
 ---
 
