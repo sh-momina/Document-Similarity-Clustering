@@ -6,7 +6,7 @@ It uses NLP and clustering techniques to detect which assignments are likely sim
 ---
 
 ## 🚀 Features
-- 🗂️ Upload multiple `.docx` or `.pdf` assignment files  
+- 🗂️ Upload `.docx` assignment files  
 - 🤖 Automatically extract and process document text  
 - 📊 Generate clusters of similar assignments  
 - 🌐 Interactive Streamlit interface for visualization  
